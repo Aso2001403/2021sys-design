@@ -1,0 +1,16 @@
+```uml
+@startuml
+start
+:天気予報が変数weather;
+if(weather==0)then(0)
+:快晴です;
+elseif(weather==1)then(1)
+:曇りです;
+elseif(weather==2)then(2)
+:雨です;
+else(その他の値であれば)
+:不明です;
+endif
+end
+@enduml
+```
