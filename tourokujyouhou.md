@@ -25,4 +25,5 @@ else 認証失敗
 webサーバー -> ユーザー : 失敗メッセージを表示
 end
 end
+deactivate ユーザー
 ```
