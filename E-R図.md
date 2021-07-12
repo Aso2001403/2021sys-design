@@ -11,15 +11,15 @@ Entity07 |o--|| Entity08
 @startuml
 entity "顧客マスタ" as customer <m_xustomers>
 <<M,MASTER_MARK_COLOR>>{
-  + customer_code[PK]
-  --
-  pass
-  name
-  address
-  tel
-  mail
-  del_flag
-  reg_date
++ customer_code[PK]
+--
+pass
+name
+address
+tel
+mail
+del_flag
+reg_date
 }
 @enduml
 ```
