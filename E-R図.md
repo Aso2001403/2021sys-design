@@ -10,7 +10,7 @@ Entity07 |o--|| Entity08
 ```startuml
 @startuml
 entity "顧客マスタ" as customer <m_xustomers>
-＜＜M,MASTER_MARK_COLOR ＞＞{
+<<M,MASTER_MARK_COLOR>>{
 + customer_code[PK]
 --
 pass
