@@ -11,7 +11,7 @@ Entity07 |o--|| Entity08
 @startuml
 package "ECサイト" as target_system {
 entity "顧客マスタ" as customer <m_xustomers>
-<<M,MASTER_MARK_COLOR>>{
+<<M,MASTER_MARK_COLOR>> {
 + customer_code[PK]
 --
 pass
