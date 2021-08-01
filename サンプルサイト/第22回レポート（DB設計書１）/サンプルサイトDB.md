@@ -2,7 +2,7 @@
 
 d_purchase
 |項目名|型|PK|FK|NN|
-|-----|--|--|--|--|
+|-----|---|:---:|:---:|:---:|
 |order_id|bigint(20)|○||○|
 |customer_code|varchar(50)|||○|
 |purchase_data|data|||○|
@@ -10,7 +10,7 @@ d_purchase
 
 d_purchase_detail
 |項目名|型|PK|FK|NN|
-|-----|--|--|--|--|
+|-----|---|:---:|:---:|:---:|
 |detail_id|bigint(20)|○||○|
 |order_id|bigint(20)|○|○|○|
 |item_code|int(11)|||○|
@@ -19,7 +19,7 @@ d_purchase_detail
 
 m_customers
 |項目名|型|PK|FK|NN|
-|-----|--|--|--|--|
+|-----|---|:---:|:---:|:---:|
 |customer_code|varchar(50)|○||○|
 |pasu|varchar(50)|○|○|○|
 |name|varchar(20)|||○|
@@ -31,7 +31,7 @@ m_customers
 
 m_category
 |項目名|型|PK|FK|NN|
-|-----|--|--|--|--|
+|-----|---|:---:|:---:|:---:|
 |category_id|int(11)|○||○|
 |name|varchar(20)|||○|
 |reg_date|date|||○|
@@ -39,7 +39,7 @@ m_category
 
 m_items
 |項目名|型|PK|FK|NN|
-|-----|--|--|--|--|
+|-----|---|:---:|:---:|:---:|
 |item_code|int(11)|○||○|
 |item_name|varchar(50)|||○|
 |price|int(11)|||○|
